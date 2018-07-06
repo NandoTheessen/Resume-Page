@@ -1,0 +1,55 @@
+.header {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+nav select {
+    display: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.7rem;
+}
+
+@media(max-width:550px) {
+    nav select {
+        text-transform: uppercase;
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        border: 0;
+        color: #a8a8a8;
+        font-size: 13px;
+        text-indent: .1px;
+        font-family: "proxima-nova";
+        letter-spacing: 1px;
+    }
+    .navLink {
+        display: none;
+    }
+}
+
+@media(max-width:550px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
