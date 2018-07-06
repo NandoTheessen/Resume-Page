@@ -7,10 +7,12 @@ const Content = () => {
             <div className='col-2'></div>
             <div className="col-8 hello">
                 <span>Hi, my name is Nando Theessen.<br />
-                    I am a Full-Stack developer from Germany.</span>
+                    I am a Full-Stack developer from Berlin, Germany.</span>
                 <br />
                 <br />
-                <span>I specialize in applications that cover the whole stack </span>
+                <span>I specialize in developing applications using the MERN Stack,<br />
+                    but am always open to new things. <br />I love working with and learning bleeding edge technologies!
+                </span>
             </div>
             <div className='col-2'></div>
             <div className='contact-sm'></div>

@@ -1,0 +1,43 @@
+.project {
+    width: 100%;
+    display: flex;
+    max-width: 750px;
+}
+
+.project-screen {
+    width: 200px;
+}
+
+.portfolio {
+    margin: 0 auto;
+    border-top: 1px solid darkgrey;
+    max-width: 750px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 10px;
+    height: 30vh;
+}
+
+.project-description-container {
+    display: inline-block;
+    margin-left: 5%;
+    padding-top: 15px;
+}
+
+.project-subtittle {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 0.9rem;
+}
+
+.portfolio-bottom-border {
+    width: 100%;
+    max-width: 750px;
+    border-bottom: 1px solid darkgrey;
+    margin-top: 35px;
+    padding-left: 10px;
+}
