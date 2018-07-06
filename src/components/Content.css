@@ -3,22 +3,36 @@
     border-top: 1px solid darkgrey;
     max-width: 850px;
     width: 100%;
-    padding-top: 35px;
+    padding-top: 40px;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
 .reach-out {
-    margin-top: 35px;
+    margin-top: 40px;
     max-width: 850px;
     padding: 0 15px;
+    padding-left: 15%;
 }
 
 .hello {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
+    padding-left: 15%;
 }
 
 .contact-sm {
     width: 100%;
     border-bottom: 1px solid darkgrey;
+}
+
+@media(max-width:450px) {
+    .reach-out {
+        max-width: 280px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hello {
+        max-width: 280px;
+        padding-left: 0;
+    }
 }

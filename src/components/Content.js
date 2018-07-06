@@ -4,8 +4,8 @@ import './Content.css'
 const Content = () => {
     return (
         <div className='introduction row' >
-            <div className='col-2'></div>
-            <div className="col-8 hello">
+
+            <div className="hello">
                 <span>Hi, my name is Nando Theessen.<br />
                     I am a Full-Stack developer from Berlin, Germany.</span>
                 <br />
@@ -14,9 +14,9 @@ const Content = () => {
                     but am always open to new things. <br /><br />I love working with and learning bleeding edge technologies!
                 </span>
             </div>
-            <div className='col-2'></div>
+
             <div className='contact-sm'></div>
-            <div className='col-2'></div>
+
             <div className='reach-out'>
                 <span>Would like help with a specific project?
                 <br />Are you looking for an addition to your team?
@@ -24,7 +24,7 @@ const Content = () => {
                     Please feel free to contact me at any time!
                 <br />nando.theessen@gmail.com or +49 1520 477 06 47</span>
             </div>
-            <div className='col-2'></div>
+
         </div>
     );
 };
