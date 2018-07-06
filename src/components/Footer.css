@@ -1,0 +1,23 @@
+.footer-container {
+    margin: 0 auto;
+    margin-top: 35px;
+    border-bottom: 1px darkgrey solid;
+    border-top: 1px darkgrey solid;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 750px;
+    padding: 0 15px;
+}
+
+.symbol-link {
+    text-decoration: none !important;
+    color: #212529;
+    align-self: center;
+    padding: 7px;
+}
+
+.symbol-link:hover {
+    text-decoration: none !important;
+}

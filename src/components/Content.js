@@ -11,11 +11,20 @@ const Content = () => {
                 <br />
                 <br />
                 <span>I specialize in developing applications using the MERN Stack,<br />
-                    but am always open to new things. <br />I love working with and learning bleeding edge technologies!
+                    but am always open to new things. <br /><br />I love working with and learning bleeding edge technologies!
                 </span>
             </div>
             <div className='col-2'></div>
             <div className='contact-sm'></div>
+            <div className='col-2'></div>
+            <div className='reach-out'>
+                <span>Would like help with a specific project?
+                <br />Are you looking for an addition to your team?
+                        <br /><br />
+                    Please feel free to contact me at any time!
+                <br />nando.theessen@gmail.com or +49 1520 477 06 47</span>
+            </div>
+            <div className='col-2'></div>
         </div>
     );
 };
