@@ -13,11 +13,13 @@
 
 .symbol-link {
     text-decoration: none !important;
-    color: #212529;
+    color: darkgrey;
     align-self: center;
     padding: 7px;
 }
 
 .symbol-link:hover {
     text-decoration: none !important;
+    color: darkgrey;
+    color: #212529;
 }
