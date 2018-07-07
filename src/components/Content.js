@@ -21,8 +21,8 @@ const Content = () => {
                 <span>Would like help with a specific project?
                 <br />Are you looking for an addition to your team?
                         <br /><br />
-                    Please feel free to contact me at any time!
-                <br />nando.theessen@gmail.com or +49 1520 477 06 47</span>
+                    Please feel free to contact me at any time @
+                <br /><span className='font-weight-bold'>nando.theessen@gmail.com</span> or <span className='font-weight-bold'>+49 1520 477 06 47</span></span>
             </div>
 
         </div>
