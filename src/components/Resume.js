@@ -24,7 +24,6 @@ const Resume = () => {
                         SOS Kinderdörfer and the WWF</li>
                 </ul>
             </div>
-
         </div>
     );
 };
