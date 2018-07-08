@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Skills from './components/Skills'
+import Education from './components/Education';
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/skills' component={Skills} />
-
+        <Route exact path='/education' component={Education} />
         <Route path='/' component={Footer} />
       </div>
     );
