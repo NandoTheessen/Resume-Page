@@ -35,8 +35,13 @@ nav select {
 
 .navLink {
     text-decoration: none;
-    color: #666;
+    color: darkgrey;
     font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: white;
 }
 
 @media(max-width:550px) {
