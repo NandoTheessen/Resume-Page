@@ -4,6 +4,7 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div className='skills-container' >
+
             <div className='mern-stack-wrapper' >
                 <h5 className='mern-stack-header' >The MERN-Stack</h5>
                 <ul>
@@ -15,9 +16,9 @@ const Skills = () => {
             <div className='API-wrapper' >
                 <h5 className='API-header'>API Design</h5>
                 <ul>
-                    <li>Implementation & Documentation of RESTful APIs</li>
+                    <li>Implementation & Documentation <br />of RESTful APIs</li>
                     <li>Creating Enpoint</li>
-                    <li>Data Modelling and Validation using mongoose</li>
+                    <li>Data Modelling and Validation<br /> using mongoose</li>
                 </ul>
             </div>
             <div className='worklow-wrapper' >
@@ -34,7 +35,7 @@ const Skills = () => {
                 <ul>
                     <li>TDD / BDD Core Principles</li>
                     <li>Client- & Serverside Testing</li>
-                    <li>Jest and Enzyme Testing Frameworks</li>
+                    <li>Jest and Enzyme Frameworks</li>
                 </ul>
             </div>
 
