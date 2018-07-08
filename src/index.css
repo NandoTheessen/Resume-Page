@@ -4,6 +4,8 @@ body {
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 400;
+  background: #212529;
+  color: white;
 }
 
 .app {
