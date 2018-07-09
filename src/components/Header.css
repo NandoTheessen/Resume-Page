@@ -21,7 +21,7 @@ a:hover {
     text-decoration: none !important;
 }
 
-nav {
+.over768 {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -47,29 +47,75 @@ nav select {
     color: white;
 }
 
+.bm-burger-button {
+    display: none;
+}
+
+/* Position and sizing of burger button */
+
 @media(max-width:768px) {
-    nav select {
-        text-transform: uppercase;
+    i {
+        margin-right: 12px;
+    }
+    .bm-burger-button {
         display: block;
-        width: 50%;
-        margin: 0 auto;
-        border: 0;
-        background: #212529;
-        color: white;
-        font-size: 12px;
-        text-indent: .1px;
-        font-family: "proxima-nova";
-        letter-spacing: 1px;
-        line-height: 24px;
-        height: 24px;
     }
     .navLink {
         display: none;
     }
-}
-
-@media(max-width:768px) {
+    .bm-burger-button {
+        position: absolute;
+        width: 24px;
+        height: 18px;
+        right: 8px;
+        top: 8px;
+    }
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+        background: white;
+    }
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+        height: 24px;
+        width: 24px;
+    }
+    /* Color/shape of close button cross */
+    .bm-cross {
+        background: #bdc3c7;
+    }
+    /* General sidebar styles */
+    .bm-menu {
+        background: #212529;
+        padding: 48px 24px 0;
+        font-size: 1.15em;
+        height: 100vh;
+    }
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+        fill: #373a47;
+    }
+    /* Wrapper for item list */
+    .bm-item-list {
+        color: #b8b7ad;
+        padding: 0;
+    }
+    /* Individual item */
+    .bm-item {
+        display: inline-block;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .bm-item:hover {
+        color: #2980b9;
+    }
+    /* Styling of overlay */
+    .bm-overlay {
+        background: rgba(0, 0, 0, 0.3);
+    }
     h1 {
         font-size: 1.5rem;
+        margin-bottom: 36px;
     }
 }
