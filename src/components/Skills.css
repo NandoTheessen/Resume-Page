@@ -32,3 +32,10 @@ h5[class*="header"] {
 .worklow-wrapper {
     margin-bottom: 0px;
 }
+
+@media(max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
