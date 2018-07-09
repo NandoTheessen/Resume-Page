@@ -60,13 +60,15 @@ nav select {
         text-indent: .1px;
         font-family: "proxima-nova";
         letter-spacing: 1px;
+        line-height: 24px;
+        height: 24px;
     }
     .navLink {
         display: none;
     }
 }
 
-@media(max-width:550px) {
+@media(max-width:768px) {
     h1 {
         font-size: 1.5rem;
     }

@@ -47,10 +47,13 @@
     padding-left: 10px;
 }
 
-@media(max-width:500px) {
+@media(max-width:768px) {
     .publication {
         flex-direction: column;
         text-align: center;
         padding-left: 0;
+    }
+    .publication-screen {
+        margin-top: 27px;
     }
 }

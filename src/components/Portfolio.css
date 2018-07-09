@@ -45,9 +45,16 @@
     padding-left: 12px;
 } */
 
-@media(max-width:500px) {
+@media(max-width:768px) {
     .project {
         flex-direction: column;
         text-align: center;
+        padding-left: 0%;
+    }
+    .project-description-container {
+        margin-left: 12px;
+    }
+    .portfolio {
+        padding-left: 0px;
     }
 }

@@ -41,3 +41,9 @@
     line-height: 24px;
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .resume-item {
+        padding-left: 12px;
+    }
+}
