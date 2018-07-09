@@ -8,34 +8,34 @@ const Skills = () => {
             <div className='mern-stack-wrapper' >
                 <h5 className='mern-stack-header' >The MERN-Stack</h5>
                 <ul>
-                    <li>React / Redux</li>
-                    <li>Node.js / Express</li>
-                    <li>mongoDB / mongoose</li>
+                    <li className='list-item' s>React / Redux</li>
+                    <li className='list-item' s>Node.js / Express</li>
+                    <li className='list-item' s>mongoDB / mongoose</li>
                 </ul>
             </div>
             <div className='API-wrapper' >
                 <h5 className='API-header'>API Design</h5>
                 <ul>
-                    <li>Implementation & Documentation <br />of RESTful APIs</li>
-                    <li>Creating Enpoint</li>
-                    <li>Data Modelling and Validation<br /> using mongoose</li>
+                    <li className='list-item'>Implementation & Documentation <br />of RESTful APIs</li>
+                    <li className='list-item'>Creating Enpoint</li>
+                    <li className='list-item'>Data Modelling and Validation<br /> using mongoose</li>
                 </ul>
             </div>
             <div className='worklow-wrapper' >
                 <h5 className='workflow-header'>Workflow</h5>
                 <ul>
-                    <li>Git Version Control</li>
-                    <li>Agile Development</li>
-                    <li>Kanban Methodology</li>
+                    <li className='list-item' >Git Version Control</li>
+                    <li className='list-item'>Agile Development</li>
+                    <li className='list-item'>Kanban Methodology</li>
                 </ul>
             </div>
 
             <div className='testing-wrapper' >
                 <h5 className='testing-header' >Testing</h5>
                 <ul>
-                    <li>TDD / BDD Core Principles</li>
-                    <li>Client- & Serverside Testing</li>
-                    <li>Jest and Enzyme Frameworks</li>
+                    <li className='list-item'>TDD / BDD Core Principles</li>
+                    <li className='list-item'>Client- & Serverside Testing</li>
+                    <li className='list-item'>Jest and Enzyme Frameworks</li>
                 </ul>
             </div>
 

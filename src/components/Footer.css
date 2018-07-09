@@ -1,14 +1,14 @@
 .footer-container {
+    box-sizing: border-box;
     margin: 0 auto;
-    margin-top: 35px;
-    border-bottom: 1px darkgrey solid;
+    margin-top: 24px;
     border-top: 1px darkgrey solid;
     height: 18vh;
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 850px;
-    padding: 0 15px;
+    padding: 0 24px;
 }
 
 .symbol-link {

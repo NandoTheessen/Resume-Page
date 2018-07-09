@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 850px;
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 h1 {
@@ -11,8 +11,10 @@ h1 {
     text-align: center;
     letter-spacing: 0.3em;
     font-weight: bold;
-    line-height: 35px;
-    margin-top: 20px;
+    line-height: 24px;
+    margin-top: 24px;
+    font-size: 2rem;
+    margin-bottom: 0px;
 }
 
 a:hover {
@@ -25,8 +27,8 @@ nav {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 48px;
+    margin-bottom: 24px;
 }
 
 nav select {
@@ -36,8 +38,9 @@ nav select {
 .navLink {
     text-decoration: none;
     color: darkgrey;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: bold;
+    line-height: 24px;
 }
 
 .navLink:hover {
@@ -52,7 +55,7 @@ nav select {
         margin: 0 auto;
         border: 0;
         color: #a8a8a8;
-        font-size: 13px;
+        font-size: 12px;
         text-indent: .1px;
         font-family: "proxima-nova";
         letter-spacing: 1px;
