@@ -21,12 +21,12 @@ const Header = (props) => {
                 <select onChange={onChange} defaultValue='Navigation'>
                     <option value="">Navigation</option>
 
-                    <option value="Portfolio">Portfolio</option>
-                    <option value="Resume">Resume</option>
-                    <option value="Publications">Publications</option>
-                    <option value="Education">Education</option>
-                    <option value="Skills">Skills</option>
-                    <option value="Contact">Contact</option>
+                    <option className='option-item' value="Portfolio">Portfolio</option>
+                    <option className='option-item' value="Resume">Resume</option>
+                    <option className='option-item' value="Publications">Publications</option>
+                    <option className='option-item' value="Education">Education</option>
+                    <option className='option-item' value="Skills">Skills</option>
+                    <option className='option-item' value="Contact">Contact</option>
                 </select>
             </nav>
         </div>
