@@ -14,21 +14,21 @@
     padding-top: 36px;
 }
 
-.mern {
-    font-size: 0.9rem;
-}
-
 .education-item-title {
+    font-size: 24px;
     margin-bottom: 0px;
 }
 
 .education-item-subtitle {
     margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 18px;
 }
 
 .education-item-description {
     line-height: 24px;
     margin-bottom: 24px;
+    font-size: 24px;
 }
 
 .education-item-list {
@@ -38,4 +38,5 @@
 .education-item-list-item {
     margin-bottom: 0px;
     line-height: 24px;
+    font-size: 18px;
 }

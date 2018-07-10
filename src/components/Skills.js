@@ -8,9 +8,9 @@ const Skills = () => {
             <div className='mern-stack-wrapper' >
                 <h5 className='mern-stack-header' >The MERN-Stack</h5>
                 <ul>
-                    <li className='list-item' s>React / Redux</li>
-                    <li className='list-item' s>Node.js / Express</li>
-                    <li className='list-item' s>mongoDB / mongoose</li>
+                    <li className='list-item'>React / Redux</li>
+                    <li className='list-item'>Node.js / Express</li>
+                    <li className='list-item'>mongoDB / mongoose</li>
                 </ul>
             </div>
             <div className='API-wrapper' >

@@ -29,11 +29,11 @@ class Header extends Component {
                     onStateChange={(state) => this.handleStateChange(state)}
                 >
                     <Link className="menu-item" onClick={() => this.closeMenu()} to='/portfolio'><i className="fas fa-project-diagram"></i><span>PORTFOLIO</span></Link>
-                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/resume'><i class="far fa-file"></i><span>RESUME</span></Link>
-                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/publications'><i class="fas fa-flask"></i><span>PUBLICATIONS</span></Link>
-                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/education'><i class="fas fa-graduation-cap"></i><span>EDUCATION</span></Link>
-                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/skills'><i class="fas fa-cogs"></i><span>SKILLS</span></Link>
-                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/contact'><i class="far fa-envelope-open"></i><span>CONTACT</span></Link>
+                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/resume'><i className="far fa-file"></i><span>RESUME</span></Link>
+                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/publications'><i className="fas fa-flask"></i><span>PUBLICATIONS</span></Link>
+                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/education'><i className="fas fa-graduation-cap"></i><span>EDUCATION</span></Link>
+                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/skills'><i className="fas fa-cogs"></i><span>SKILLS</span></Link>
+                    <Link className="menu-item" onClick={() => this.closeMenu()} to='/contact'><i className="far fa-envelope-open"></i><span>CONTACT</span></Link>
                 </Menu>
                 <nav className='over768' >
                     <Link className='navLink' to='/portfolio'><span>PORTFOLIO</span></Link>
