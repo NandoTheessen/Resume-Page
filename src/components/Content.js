@@ -13,6 +13,7 @@ const Content = () => {
                 <span>I specialize in developing applications using the MERN Stack,<br />
                     but am always open to new things. <br /><br />I love working with and learning bleeding edge technologies!
                 </span>
+                <img src={} alt=""/>
             </div>
 
             <div className='contact-sm'></div>
