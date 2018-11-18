@@ -9,14 +9,22 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-const Social = styled('div')`
-  a {
-    text-decoration: none;
-  }
-  a:hover {
-    color: white;
-  }
-`;
+const SocialContainer = props => {
+  return (
+    <Social>
+      {data.map(e => {
+        return (
+          <Link key={e.name} to={e.url}>
+            <FontAwesomeIcon icon={e.logo} />
+            {e.name}
+          </Link>
+        );
+      })}
+    </Social>
+  );
+};
+
+export default SocialContainer;
 
 const data = [
   {
@@ -41,19 +49,11 @@ const data = [
   }
 ];
 
-const SocialContainer = props => {
-  return (
-    <Social>
-      {data.map(e => {
-        return (
-          <Link key={e.name} to={e.url}>
-            <FontAwesomeIcon icon={e.logo} />
-            {e.name}
-          </Link>
-        );
-      })}
-    </Social>
-  );
-};
-
-export default SocialContainer;
+const Social = styled('div')`
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+`;
