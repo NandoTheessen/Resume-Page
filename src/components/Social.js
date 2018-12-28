@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -16,7 +16,7 @@ const SocialContainer = props => {
         return (
           <Link key={e.name} to={e.url}>
             <FontAwesomeIcon icon={e.logo} />
-            {e.name}
+            <Heading> {e.name}</Heading>
           </Link>
         );
       })}
@@ -56,4 +56,8 @@ const Social = styled('div')`
   a:hover {
     color: white;
   }
+  display: flex;
+  flex-direction: column;
 `;
+
+const Heading = styled('span')``;

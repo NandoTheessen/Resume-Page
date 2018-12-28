@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 const Header = styled('div')`
@@ -7,14 +7,6 @@ const Header = styled('div')`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  a {
-    text-decoration: none;
-    color: lightblue;
-    :hover {
-      text-decoration: none;
-      color: lightblue;
-    }
-  }
 `;
 
 const Nav = styled('nav')``;
