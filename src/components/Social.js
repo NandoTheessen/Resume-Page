@@ -36,11 +36,7 @@ const data = [
     url: 'https://twitter.com/NandoTCodes',
     logo: faTwitter
   },
-  {
-    name: 'Email',
-    url: 'mailto:Nando.Theessen@gmail.com',
-    logo: faEnvelope
-  },
+
   {
     name: 'medium',
     url: 'https://medium.com/@nando.theessen',
@@ -50,6 +46,11 @@ const data = [
     name: 'linkedIn',
     url: 'https://www.linkedin.com/in/nandotheessen/?locale=en_US',
     logo: faLinkedin
+  },
+  {
+    name: 'Email',
+    url: 'mailto:Nando.Theessen@gmail.com',
+    logo: faEnvelope
   }
 ];
 
@@ -62,6 +63,7 @@ const Social = styled('div')`
   }
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 `;
 
 const Heading = styled('span')``;

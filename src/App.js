@@ -3,6 +3,7 @@ import Header from './components/Header';
 import { Route } from 'react-router-dom';
 import Social from './components/Social';
 import styled from '@emotion/styled';
+import Main from './components/Main';
 
 class App extends Component {
   render() {
@@ -10,6 +11,8 @@ class App extends Component {
       <AppContainer className="app">
         <Route path="/" component={Header} />
         <Social />
+        <Main path="/" />
+
         {/*         <Route exact path="/" component={Content} />
         <Route path="/" component={Footer} /> */}
       </AppContainer>
