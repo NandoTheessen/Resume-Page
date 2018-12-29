@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
@@ -14,10 +13,15 @@ const SocialContainer = props => {
     <Social>
       {data.map(e => {
         return (
-          <Link key={e.name} to={e.url}>
+          <a
+            key={e.name}
+            href={e.url}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={e.logo} />
             <Heading> {e.name}</Heading>
-          </Link>
+          </a>
         );
       })}
     </Social>

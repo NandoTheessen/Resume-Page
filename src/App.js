@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HeaderContainer from './components/Header';
+import Header from './components/Header';
 import { Route } from 'react-router-dom';
 import Social from './components/Social';
 import styled from '@emotion/styled';
@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer className="app">
-        <Route path="/" component={HeaderContainer} />
+        <Route path="/" component={Header} />
         <Social />
         {/*         <Route exact path="/" component={Content} />
         <Route path="/" component={Footer} /> */}
@@ -22,10 +22,10 @@ export default App;
 const AppContainer = styled('div')`
   a {
     text-decoration: none;
-    color: lightblue;
+    color: #f81894;
     :hover {
       text-decoration: none;
-      color: lightblue;
+      // color: lightblue;
     }
   }
 `;
