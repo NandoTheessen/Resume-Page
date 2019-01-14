@@ -1,46 +1,42 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 
-const Nav = styled('nav')`
-  width: 42vw;
-  margin: auto;
-  height: 40;
-  top: 0;
-  display: flex;
-  font-size: 12px;
-  justify-content: space-between;
-  align-items: center;
-`;
+const Header = ({ siteTitle }) => (
+  <div
+    style={{
+      background: `rebeccapurple`,
+      marginBottom: `1.45rem`,
+    }}
+  >
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `1.45rem 1.0875rem`,
+      }}
+    >
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h1>
+    </div>
+  </div>
+)
 
-const NavWrapper = styled('div')`
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 24px;
-  width: 100%;
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
 
-  /* this is what centers your element in the fixed wrapper*/
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center; /* aligns on vertical for column */
-  align-items: center; /* aligns on horizontal for column */
+Header.defaultProps = {
+  siteTitle: ``,
+}
 
-  /* just for styling to see the limits */
-  box-sizing: border-box;
-`;
-
-const Header = props => {
-  return (
-    <NavWrapper>
-      <Nav>
-        <Link to="/yy">PUBLICATIONS</Link>
-        <Link to="/yz">PROJCETS</Link>
-        <Link to="/yz">EXPERIENCE</Link>
-        <Link to="/yz">BLOG</Link>
-      </Nav>
-    </NavWrapper>
-  );
-};
-
-export default Header;
+export default Header
